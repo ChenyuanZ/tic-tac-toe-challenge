@@ -9,7 +9,7 @@ from games_handler import GamesHandler
 
 
 define("port", default=8888, help="run on the given port", type=int)
-define("redis_host", default="127.0.0.1", help="server database host")
+define("redis_host", default="redis", help="server database host")
 define("redis_port", default=6379, help="server database port", type=int)
 define("redis_password", default="", help="server database password")
 define("redis_database", default=0, help="server database number", type=int)

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  tic_tac_toe:
+    image: chenyuaz/tic_tac_toe:1.0.0
+    ports:
+      - "8888:8888"
+  redis:
+    image: redis
