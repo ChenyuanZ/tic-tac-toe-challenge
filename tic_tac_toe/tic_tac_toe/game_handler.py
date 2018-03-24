@@ -78,7 +78,7 @@ class GameHandler(tornado.web.RequestHandler):
 
         if not game.exits:
             logger.info("Game {} doesn't exist.".format(game.game_id))
-            self.set_status(400)
+            self.set_status(404)
             self.finish({"message": "Not Found"})
             return False
 
