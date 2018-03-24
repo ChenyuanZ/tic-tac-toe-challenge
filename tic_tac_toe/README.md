@@ -3,7 +3,7 @@
 
 ## Start tic_tac_toe server
 ```bash
-$ [sudo] docker pull chenyuaz/tic_tac_toe:1.0.0
+$ [sudo] docker pull chenyuaz/tic_tac_toe:1.0.1
 $ [sudo] docker pull redis
 $ [sudo] docker-compose up -d
 ```
